@@ -6,7 +6,7 @@
 2. add to your `~/.profile` or similar this line:
 
 ```bash
-test -s "$HOME/dotfiles/.main" && source "$HOME/dotfiles/..main"
+test -s "$HOME/dotfiles/.main" && source "$HOME/dotfiles/.main"
 ```
 
 ## update
@@ -19,3 +19,7 @@ $ git pull
 ```
 $ source .profile
 ```
+
+## TODO
+
+- [ ] use this [template](https://github.com/anishathalye/dotfiles_template) 

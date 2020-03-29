@@ -4,6 +4,10 @@ alias list_users="cut -d: -f1 /etc/passwd"
 # Gcloud
 
 # configurations list 
-alias gcloudcl="gcloud config configurations list"
+alias gccl="gcloud config configurations list"
 # switch project
-alias gcloudsp"gcloud config configurations activate $1"
+alias gcsp="gcloud config configurations activate $1"
+# Display current config
+alias gcc="gcloud config list"
+
+export EDITOR="vim"
