@@ -1,0 +1,9 @@
+alias netstatx="netstat -plntu"
+alias list_users="cut -d: -f1 /etc/passwd"
+
+# Gcloud
+
+# configurations list 
+alias gcloudcl="gcloud config configurations list"
+# switch project
+alias gcloudsp"gcloud config configurations activate $1"
