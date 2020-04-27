@@ -23,3 +23,13 @@ $ source .profile
 ## TODO
 
 - [ ] use this [template](https://github.com/anishathalye/dotfiles_template) 
+
+
+## Installer
+
+- [ ] tldr
+- [ ] shellcheck
+- [ ] fzf
+- [ ] tree
+- [ ] broot
+- [ ] vim

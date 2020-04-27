@@ -9,5 +9,9 @@ alias gccl="gcloud config configurations list"
 alias gcsp="gcloud config configurations activate $1"
 # Display current config
 alias gcc="gcloud config list"
+alias blog_sql_proxy="./cloud_sql_proxy -instances=blogalyzer-production:europe-west3:postgres11=tcp:3306"
 
 export EDITOR="vim"
+
+alias my_dotfiles="cat ~/dotfiles/.main"
+alias examples="tldr $1"
