@@ -24,6 +24,10 @@ $ source .profile
 
 - [ ] use this [template](https://github.com/anishathalye/dotfiles_template) 
 
+## pending aliases
+
+- [ ] reload dotfiles helper
+- [ ] copy sam dotfiles
 
 ## Installer
 
@@ -33,3 +37,4 @@ $ source .profile
 - [ ] tree
 - [ ] broot
 - [ ] vim
+- [ ] [bashtop](https://github.com/aristocratos/bashtop#installation)

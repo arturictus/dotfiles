@@ -15,3 +15,21 @@ export EDITOR="vim"
 
 alias my_dotfiles="cat ~/dotfiles/.main"
 alias examples="tldr $1"
+
+if [ -d "$HOME/software/bashtop" ] ; then
+    PATH="$HOME/software/bashtop:$PATH"
+fi
+
+function edit_credentials {
+  # TODO: does not work the argument
+    if [ -z "$1" ]; then
+        echo "With argument: $1"
+        RAILS_MASTER_KEY=$(cat config/master.key) bin/rails credentials:edit --environment "$1"
+    else
+      bin/rails credentials:edit
+    fi
+}
+
+# RUBY
+
+alias be="bundle exec"
